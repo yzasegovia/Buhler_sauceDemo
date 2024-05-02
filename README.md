@@ -1,24 +1,42 @@
-This is a simple Playwright test automation script for Buhler's SauceDemo Web Application.
+ <p align="center">
+    project_description
+    <br />
+    <a href="(https://github.com/yzasegovia/Buhler_sauceDemo)"><strong>Explore the docs »</strong></a>
+    <br />
+  </p>
+</div>
 
-Pre-requisites:
-1. Visual Studio Code
-2. Playwright VS code extension
 
-Test Cases:
---Test Group: 'User login operation' - This is the test group in testing User Login and Logout functionalities.
----Test Cases:
-----'Testing standard user valid login'
-----'Testing invalid login using locked_user credential'
-----'Testing Logout'
 
---Test Group: 'Testing User Checkout' - This is the test group in testing Add to basket functionalities.
----Test Cases:
-----'User add products in basket'
-----'Calculated total price in checkout'
-----'User remove products in basket'
-----'User checkout products'
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Class Modules:
--'cart.spec.ts' - for product lists and add/remove functions
--'user.spec.ts' - for user login and logout functions
 
+## About The Project
+
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
