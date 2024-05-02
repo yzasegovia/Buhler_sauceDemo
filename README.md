@@ -1,7 +1,7 @@
  <p align="center">
     project_description
     <br />
-    <a href="(https://github.com/yzasegovia/Buhler_sauceDemo)"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/yzasegovia/Buhler_sauceDemo"><strong>Explore the docs »</strong></a>
     <br />
   </p>
 </div>
