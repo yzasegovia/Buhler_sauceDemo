@@ -31,6 +31,7 @@ test.describe('User login operation', () =>{
     
     });
 
+
     // To test locked_out_user credential
     test('Testing invalid login using locked_user credential', async ({ page }) => {
 
@@ -48,8 +49,9 @@ test.describe('User login operation', () =>{
         await expect(page.locator(LOGIN_ERROR)).toBeVisible();
     });
 
+
     // To test logout
-    test('Logout', async ({ page }) => {
+    test('Testing Logout', async ({ page }) => {
 
         //given
         const user_name = 'standard_user';
@@ -60,22 +62,6 @@ test.describe('User login operation', () =>{
         user_page.login (page, user_name, pwd);
         await page.getByRole('button', {name: 'Open Menu'}).click();
         await page.locator(USER_LOGOUT_BUTTON).click();
-
-        //then
-        // Check if login error is shown
-        await expect(page.locator(USER_LOGIN_BUTTON)).toBeVisible();
-    });
-
-    test('Logout2', async ({ page }) => {
-
-        //given
-        const user_name = 'standard_user';
-        const pwd = 'secret_sauce';
-        
-        
-        //when
-        await user_page.login (page, user_name, pwd);
-        await user_page.logout(page);
 
         //then
         // Check if login error is shown

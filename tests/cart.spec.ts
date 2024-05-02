@@ -33,18 +33,12 @@ export class Cart {
     }
 
     async add(product:Product){
-        //if (await this.page.locator(product.addLocationId).isVisible()){
         await this.page.locator(product.addLocationId).click();
-        //};
-
     }
 
-    /*async removed(product:Product){
-        if (await this.page.locator(product.removeLocationId).isVisible()){
+    async removed(product:Product){
         await this.page.locator(product.removeLocationId).click();
-        };
-  
-    }*/
+    }
 }
 
 export function cart(page:Page){
