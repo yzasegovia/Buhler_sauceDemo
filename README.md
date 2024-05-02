@@ -64,6 +64,8 @@ This is an example of how to list things you need to use the software and how to
 <!-- TEST PLAN -->
 ## Test Plan
 The automated test cases have been grouped in to two:
+<br />
+
 A. "userlogin" - This group tests the user login and logout functionalities.
  - Testing standard user valid login
  - Testing invalid login using locked_user credential
