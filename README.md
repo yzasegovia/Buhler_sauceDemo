@@ -15,6 +15,8 @@ Test Cases:
 ---Test Cases:
 ----'User add products in basket'
 ----'Calculated total price in checkout'
+----'User remove products in basket'
+----'User checkout products'
 
 Class Modules:
 -'cart.spec.ts' - for product lists and add/remove functions
